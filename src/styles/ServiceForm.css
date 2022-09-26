@@ -1,0 +1,19 @@
+.serviceForm {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.serviceForm div {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.button {
+    width: 140px;
+    padding: 10px 5px;
+    background-color: blueviolet;
+    color: beige;
+}

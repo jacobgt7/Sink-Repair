@@ -1,13 +1,42 @@
 {
-    "plumbers": [],
-    "completions": [],
-    "requests": [
-        {
-            "id": 1,
-            "description": "Aut sint voluptatem fugit eius quas molestiae modi.",
-            "address": "34445 Bianka Ports",
-            "budget": 400,
-            "neededBy": "2021-08-27"
-        }
-    ]
+  "plumbers": [
+    {
+      "id": 1,
+      "name": "Maude"
+    },
+    {
+      "id": 2,
+      "name": "Merle"
+    }
+  ],
+  "completions": [
+    {
+      "requestId": 1,
+      "plumberId": "1",
+      "dateCreated": 1664220148012,
+      "id": 1
+    },
+    {
+      "requestId": 2,
+      "plumberId": "2",
+      "dateCreated": 1664220679411,
+      "id": 2
+    }
+  ],
+  "requests": [
+    {
+      "id": 1,
+      "description": "Aut sint voluptatem fugit eius quas molestiae modi.",
+      "address": "34445 Bianka Ports",
+      "budget": 400,
+      "neededBy": "2021-08-27"
+    },
+    {
+      "description": "Need a dead animal pulled from our pipes.",
+      "address": "2278 Dungeon Rd",
+      "budget": "30",
+      "neededBy": "2022-09-30",
+      "id": 2
+    }
+  ]
 }
