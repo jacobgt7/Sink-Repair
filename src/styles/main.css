@@ -13,8 +13,24 @@ textarea {
 	line-height: 1.5;
 }
 
-h1,h2,h3,h4,h5,h6 {
-  font-family: "Patua One", serif;
-  letter-spacing: 2px;
+body {
+	padding: 35px;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "Patua One", serif;
+	letter-spacing: 2px;
+}
+
+.serviceRequests li {
+	border: 2px black solid;
+}
+
+.completed {
+	background-color: salmon;
+}
